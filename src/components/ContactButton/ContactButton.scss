@@ -1,0 +1,30 @@
+.btn-link {
+    text-decoration: none;
+}
+
+.btn {
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid #FCF9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #FCF9F9;
+    font-weight: bold;
+    background-color: #1E1E1E;
+    cursor: pointer;
+    transition: .3s ease;
+
+    &:hover {
+        background-color: #222222;
+    }
+
+    .whats-logo {
+        width: 30px;
+        height: 20px;
+        color: rgb(9, 203, 9);
+
+    }
+}

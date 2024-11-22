@@ -1,0 +1,17 @@
+
+
+.custom-pagination { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+    .MuiPaginationItem-root { 
+        color: #61031C;  
+        
+        &.Mui-selected {
+            background-color: #61031C;  
+            color: white;  
+        }
+    }
+}
