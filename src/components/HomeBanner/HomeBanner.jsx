@@ -1,7 +1,7 @@
 import homeBanner1 from '../../imgs/homeBanner1.jpeg'
-import homeBanner2Img1 from '../../imgs/homeBanner2Img.png'
-import homeBanner2Img2 from '../../imgs/homeBanner2Img2.png'
-import homeBanner2Img3 from '../../imgs/homeBanner2Img3.png'
+import homeBanner2Img1 from '../../imgs/homeBanner2 img1.png'
+import homeBanner2Img2 from '../../imgs/homeBanner2 img2.png'
+import homeBanner2Img3 from '../../imgs/homeBanner2 img3.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
