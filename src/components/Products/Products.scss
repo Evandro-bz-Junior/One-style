@@ -112,6 +112,7 @@
                 text-align: center;
                 margin-top: 0.5rem;
                 font-weight: bold;
+                color: #61031C;
 
                 .product-title {
                     font-size: 1.1rem;
@@ -186,6 +187,10 @@
             .product-item {
                 width: 43vw;
                 height: 380px;
+                
+                img{
+                    height: 80%;
+                }
 
                 .product-info {
                     width: 100%;

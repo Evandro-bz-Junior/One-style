@@ -32,7 +32,7 @@ function HomeBanner() {
                     disableOnInteraction: false,
                 }}
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
 
                     <div className='home-banner'>
 
@@ -50,7 +50,7 @@ function HomeBanner() {
 
                     </div>
 
-                </SwiperSlide>
+                </SwiperSlide> */}
 
                 <SwiperSlide>
 

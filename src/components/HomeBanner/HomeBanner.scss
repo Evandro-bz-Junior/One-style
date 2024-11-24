@@ -85,11 +85,11 @@
         .info-area {
             width: 100%;
             height: 40vh; 
-            padding: 1rem 2rem;
+            padding: 0 2rem;
             align-items: start;
 
             .title {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
         }
     }
@@ -204,6 +204,7 @@
 
             .title {
                 text-align: start;
+                font-size: 2rem;
             }
         }
     }
