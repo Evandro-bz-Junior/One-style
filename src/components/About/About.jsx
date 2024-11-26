@@ -18,7 +18,10 @@ function About() {
                 </div>
 
                 <span  >
-                    A One Style nasceu da paixão pela moda e do desejo de criar peças que não apenas vestem, mas transformam. Nossa missão é oferecer roupas de alta qualidade que permitam às pessoas expressar sua individualidade e estilo único. Valorizamos a sustentabilidade, a inovação e o compromisso com nossos clientes, garantindo sempre a melhor experiência de compra.
+                    Somos uma marca autoral com fabricação própria, focada em moda feminina casual chique, contemporânea e atemporal, com uma pitada de sofisticação, uma marca cheia de cores, flores e elegância.
+                </span>
+                <span  >
+                    O propósito da nossa marca é transformar a vida das mulheres através da moda. Sabemos que muitas mulheres não conseguem enxergar sua própria beleza, e acreditamos que a moda, por meio das roupas, tem um potencial único para impulsionar a autoestima, queremos ver mulheres com autoestima e autoconfiança inabaláveis.
                 </span>
             </div>
 
