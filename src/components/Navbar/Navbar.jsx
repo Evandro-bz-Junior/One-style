@@ -27,6 +27,14 @@ function Navbar() {
         setOpen(false);
     };
 
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+            setOpen(false); // Fecha o menu caso seja um menu hambúrguer
+        }
+    };
+
     return (
         <nav className='navbar'>
 

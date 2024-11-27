@@ -52,7 +52,7 @@ function HomeBanner() {
 
                 </SwiperSlide>
 
-                {/* <SwiperSlide>
+                <SwiperSlide>
 
                     <div className='home-banner2'>
 
@@ -74,7 +74,7 @@ function HomeBanner() {
                     </div>
 
                 </SwiperSlide>
- */}
+
             </Swiper>
 
 

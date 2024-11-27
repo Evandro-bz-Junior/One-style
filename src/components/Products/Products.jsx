@@ -37,6 +37,10 @@ function Products() {
 
     const handlePageChange = (event, value) => {
         setCurrentPage(value);
+        const productsSection = document.getElementById('products');
+        if (productsSection) {
+            productsSection.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
 
@@ -59,11 +63,11 @@ function Products() {
 
     const productsRef = useRef(null);
 
-    useEffect(() => {
+    /* useEffect(() => {
         if (productsRef.current) {
             productsRef.current.scrollIntoView({ behavior: 'smooth' });
         }
-    }, [currentPage]);
+    }, [currentPage]); */
 
     return (
         <div className='products' ref={productsRef}>
