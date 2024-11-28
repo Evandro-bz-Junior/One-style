@@ -13,7 +13,7 @@ function Footer() {
 
                 <h4 id='logo-name'>One Style</h4>
 
-                <span>Moda que inspira. Na One Style, oferecemos roupas de alta qualidade que refletem sua personalidade e estilo.</span>
+                <span>Moda que Transforma.</span>
 
             </div>
 

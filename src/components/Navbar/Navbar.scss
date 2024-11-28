@@ -35,6 +35,13 @@
         display: none;
     }
 
+    @media (min-width: 481px) and (max-width: 768px) {
+
+        padding: 0 20px;
+        font-size: 0.9rem;
+    }
+
+
     @media (max-width: 480px) {
 
         padding: 0 1rem;
@@ -58,7 +65,7 @@
             z-index: 10;
             padding: 20px 0;
             position: absolute;
-            font-size: 1.2rem; 
+            font-size: 1.2rem;
             opacity: 0;
             visibility: hidden;
             transition: opacity 0.5s ease-in, top 0.5s ease-in, visibility 0.5s ease-in;
@@ -66,7 +73,7 @@
         }
 
         /* Exibe o menu quando a classe .open for adicionada */
-        .nav-links.open { 
+        .nav-links.open {
             opacity: 1;
             visibility: visible;
             top: 0px;

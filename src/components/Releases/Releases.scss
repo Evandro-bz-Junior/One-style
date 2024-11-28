@@ -242,11 +242,13 @@
         }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 480px) { 
+
         .releases-items {
             display: flex;
             flex-direction: column;
             width: 95%;
+            height: auto;
 
             .item1,
             .item2,

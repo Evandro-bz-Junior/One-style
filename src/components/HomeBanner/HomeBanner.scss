@@ -32,8 +32,8 @@
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            overflow: hidden;
+            object-fit: cover;  
+            object-position: 50% 10%;
         }
     }
 
@@ -96,7 +96,7 @@
 }
 
 .home-banner2 {
-    background-color: #A53855;
+    background-color: #1E1E1E;
     justify-content: center;
 
     .info-area {
@@ -110,16 +110,16 @@
         }
 
         .btn {
-            background-color: #851936;
+            background-color: #61031C;
 
             &:hover {
-                background-color: #61031C;
+                background-color: #851936;
             }
         }
     }
 
     .img-area {
-        width: 45%;
+        width: 60%;
         height: 100%;
         display: flex;
         justify-content: space-around;
@@ -127,12 +127,13 @@
 
         img {
             margin-right: -1.5rem;
-            width: 33%;
+            width: 35%;
             height: 100%;
             object-fit: cover;
             overflow: hidden;
             clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
             transform: scale(1.1);
+            object-position: 30% 10%;
         }
     }
 
@@ -154,14 +155,14 @@
 
         .img-area {
             width: 100%;
-            height: 60vh;
-            justify-content: center;
-            gap: 0.2rem;
+            height: 600px;
+            justify-content: center; 
+            gap: 0.5rem;
 
             img {
-                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                width: 28%;
-                height: 100%;
+                clip-path: none;
+                width: 100%;
+                height: 90%;
                 margin-right: 0;
                 object-fit: cover;
                 transform: scale(1);
@@ -191,12 +192,12 @@
             margin-bottom: 0.5rem;
 
             img {
-                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
                 width: 35%;
                 height: 100%;
                 margin-right: 0;
                 object-fit: cover;
-                object-position: 50% 10%;
+                object-position: 40% 10%;
             }
         }
 
