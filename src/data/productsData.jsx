@@ -150,7 +150,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
     {
         id: crypto.randomUUID(),
         title: "Camisa Itaguaci",
-        type: 'Camiseta',
+        type: 'Camisa',
         price: "R$ 129,90",
         payment: "4x sem juros",
         image: [
@@ -326,7 +326,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         description: `Conjunto em crepe leve,cropped e saia forrados com helanquinha. Possui fechamento em zíper.`,
         isRelease: false
     },
-   /*  {
+    {
         id: crypto.randomUUID(),
         title: "Vestido Vitória",
         type: 'Vestido',
@@ -336,8 +336,10 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             getImagePath('Vestido Vitória', 'Vestido Vitória1.jpeg'),
             getImagePath('Vestido Vitória', 'Vestido Vitória2.jpeg'), 
             getImagePath('Vestido Vitória', 'Vestido Vitória3.jpeg'), 
+            getImagePath('Vestido Vitória', 'Vestido Vitória4.jpeg'), 
+            getImagePath('Vestido Vitória', 'Vestido Vitória5.jpeg'), 
         ],
-        description: `Vestido mídi em crepe , blusa forrada na o mesmo tecido, saia corte godê. Manga estilo baloné , possui zíper nas costas.`,
+        description: `Vestido mídi em crepe, blusa forrada na o mesmo tecido, saia corte godê. Manga estilo baloné, possui zíper nas costas.`,
         isRelease: true
     },
     {
@@ -350,10 +352,13 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             getImagePath('Vestido Marcleia', 'Vestido Marcleia1.jpeg'),
             getImagePath('Vestido Marcleia', 'Vestido Marcleia2.jpeg'), 
             getImagePath('Vestido Marcleia', 'Vestido Marcleia3.jpeg'), 
+            getImagePath('Vestido Marcleia', 'Vestido Marcleia4.jpeg'), 
+            getImagePath('Vestido Marcleia', 'Vestido Marcleia5.jpeg'), 
+            getImagePath('Vestido Marcleia', 'Vestido Marcleia6.jpeg'), 
         ],
-        description: `Vestido longo em crepe , blusa forrada na o mesmo tecido, saia levemente franzida, forrada, possui zíper nas costas.`,
+        description: `Vestido longo em crepe, blusa forrada na o mesmo tecido, saia levemente franzida, forrada, possui zíper nas costas.`,
         isRelease: true
-    }, */
+    },
 
     // Adicione mais produtos conforme necessário 
 

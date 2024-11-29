@@ -84,7 +84,7 @@ function Products() {
                     <ul className='product-types'>
 
                         <li className="product-type" onClick={() => handleTypeChange('')}>Todos</li>
-                        <li className="product-type" onClick={() => handleTypeChange('Camiseta')}>Camisetas</li>
+                        <li className="product-type" onClick={() => handleTypeChange('Camisa')}>Camisas</li>
                         <li className="product-type" onClick={() => handleTypeChange('Blusa')}>Blusas</li>
                         <li className="product-type" onClick={() => handleTypeChange('Vestido')}>Vestidos</li>
                         <li className="product-type" onClick={() => handleTypeChange('Calça')}>Calças</li>

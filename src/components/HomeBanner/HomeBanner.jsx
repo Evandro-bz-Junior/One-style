@@ -6,12 +6,14 @@ import homeBanner2Img3 from '@imgs/homebanner2-img3.jpeg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import ContactButton from "../ContactButton/ContactButton";
+import CtaInstagram from '../CtaInstagram/CtaInstagram';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import './HomeBanner.scss';
+
 
 
 function HomeBanner() {
@@ -40,7 +42,9 @@ function HomeBanner() {
                             <h1 className="title">Moda que Transforma </h1>
                             <span>Descubra sua melhor versão
                                 com nossas peças exclusivas.</span>
-                            <ContactButton />
+                            <div className="cta-area">
+                                <ContactButton /> <CtaInstagram />
+                            </div>
 
                         </div>
 
@@ -52,14 +56,16 @@ function HomeBanner() {
 
                 </SwiperSlide>
 
-                <SwiperSlide>
+                 <SwiperSlide>
 
                     <div className='home-banner2'>
 
                         <div className="info-area">
                             <h1 className="title">Seja uma mulher com autoestima inabalável</h1>
                             <span>15% off para primeira compra.</span> 
-                            <ContactButton />
+                            <div className="cta-area">
+                                <ContactButton /> <CtaInstagram />
+                            </div>
 
                         </div>
 
