@@ -151,6 +151,22 @@
     
 
     @media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+        .product-types-area {
+            padding: 0 0.5rem;
+
+            .type-select {
+                padding: 0.5rem 0.5rem;
+                gap: 1rem;
+                flex-wrap: wrap;
+                width: 95%;
+                height: auto;
+
+                .product-types {
+                    gap: 0.5rem;
+                    flex-wrap: wrap;
+                }
+            }
+        }
         .products-items {
             grid-template-columns: repeat(3, 1fr); 
             padding: 0 ;

@@ -57,10 +57,8 @@ function HomeBanner() {
                     <div className='home-banner2'>
 
                         <div className="info-area">
-                            <h1 className="title">Estilo único para pessoas únicas!</h1>
-                            <span>Deixe sua marca por onde passar.</span>
-                            <span>Nossas roupas são mais que moda,
-                                são um estilo de vida.</span>
+                            <h1 className="title">Seja uma mulher com autoestima inabalável</h1>
+                            <span>15% off para primeira compra.</span> 
                             <ContactButton />
 
                         </div>
