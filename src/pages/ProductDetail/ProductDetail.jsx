@@ -5,19 +5,23 @@ import Navbar from '../../components/Navbar/Navbar';
 import ContactButton from '../../components/ContactButton/ContactButton';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
+import React, { useState } from 'react';
+import { FaWindowClose } from "react-icons/fa";
+
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import './ProductDetail.scss';
-import React from 'react';
+
 
 function ProductDetail() {
 
 
     const { id } = useParams();
     let product = productsData.find((p) => p.id === id);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     if (!product) {
         const savedProduct = localStorage.getItem('selectedProduct');
@@ -54,7 +58,7 @@ function ProductDetail() {
                         >
                             {product.image.map((image, index) => (
                                 <SwiperSlide key={index}>
-                                    <img src={image} alt={product.title} className='product-imgs'/>
+                                    <img src={image} alt={product.title} className='product-imgs' />
                                 </SwiperSlide>
                             ))}
                         </Swiper>
@@ -71,6 +75,49 @@ function ProductDetail() {
                         </p>
                         <span className='product-price'>{product.price} {product.payment}</span>
                         <span>Consulte os tamanhos disponiveis</span>
+
+                        <button className="btn-open-modal" onClick={() => setIsModalOpen(true)}>
+                            Ver Tabela de Medidas
+                        </button>
+                        {isModalOpen && (
+                            <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+                                <div
+                                    className="modal-content"
+                                    onClick={(e) => e.stopPropagation()} // Previne o fechamento ao clicar dentro do modal
+                                >
+                                    <div className="modal-header">
+                                        <h3>Tabela de Medidas</h3>
+                                        <button className="btn-close-modal" onClick={() => setIsModalOpen(false)}>
+                                        <FaWindowClose />
+                                        </button>
+                                    </div>
+                                    {product.measurements ? (
+                                        <table className="measurements-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Medidas</th>
+                                                    <th>P</th>
+                                                    <th>M</th>
+                                                    <th>G</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {Object.entries(product.measurements).map(([key, sizes]) => (
+                                                    <tr key={key}>
+                                                        <td>{key.charAt(0).toUpperCase() + key.slice(1)}</td>
+                                                        <td>{sizes.P}</td>
+                                                        <td>{sizes.M}</td>
+                                                        <td>{sizes.G}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    ) : (
+                                        <p>Medidas não disponíveis para este produto.</p>
+                                    )}
+                                </div>
+                            </div>
+                        )}
                         <p>Gostou ou quer mais detalhes?</p>
                         <ContactButton />
                     </div>
