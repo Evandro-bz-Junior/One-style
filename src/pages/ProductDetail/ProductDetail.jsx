@@ -76,6 +76,31 @@ function ProductDetail() {
                         <span className='product-price'>{product.price} {product.payment}</span>
                         <span>Consulte os tamanhos disponiveis</span>
 
+                        {product.measurements ? (
+                                        <table className="measurements-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Medidas</th>
+                                                    <th>P</th>
+                                                    <th>M</th>
+                                                    <th>G</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {Object.entries(product.measurements).map(([key, sizes]) => (
+                                                    <tr key={key}>
+                                                        <td>{key.charAt(0).toUpperCase() + key.slice(1)}</td>
+                                                        <td>{sizes.P}</td>
+                                                        <td>{sizes.M}</td>
+                                                        <td>{sizes.G}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    ) : (
+                                        <p>Medidas não disponíveis para este produto.</p>
+                                    )}
+
                         <button className="btn-open-modal" onClick={() => setIsModalOpen(true)}>
                             Ver Tabela de Medidas
                         </button>
@@ -92,7 +117,7 @@ function ProductDetail() {
                                         </button>
                                     </div>
                                     {product.measurements ? (
-                                        <table className="measurements-table">
+                                        <table className="measurements-table-mobile">
                                             <thead>
                                                 <tr>
                                                     <th>Medidas</th>

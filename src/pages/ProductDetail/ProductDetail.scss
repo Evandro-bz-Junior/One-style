@@ -52,7 +52,36 @@
                 white-space: pre-wrap;
             }
 
+            .measurements-table {
+                width: 30%;
+                border-collapse: collapse;
+                margin: 0.5rem 0;
+                font-size: 0.8rem;
+
+                th,
+                td {
+                    border: 1px solid #ddd;
+                    padding: 0.25rem;
+                    text-align: center;
+                }
+
+                th {
+                    background-color: #f4f4f4;
+                    font-weight: bold;
+                }
+
+                tr:nth-child(even) {
+                    background-color: #f9f9f9;
+                }
+
+                td:first-child {
+                    text-align: left;
+                }
+            }
+
+            
             .btn-open-modal {
+                display: none;
                 width: fit-content; 
                 background-color: #61031C;
                 color: #FCF9F9;
@@ -90,32 +119,7 @@
                 align-items: center;
             }
 
-            .measurements-table {
-                width: 30%;
-                border-collapse: collapse;
-                margin: 0.5rem 0;
-                font-size: 0.8rem;
-
-                th,
-                td {
-                    border: 1px solid #ddd;
-                    padding: 0.25rem;
-                    text-align: center;
-                }
-
-                th {
-                    background-color: #f4f4f4;
-                    font-weight: bold;
-                }
-
-                tr:nth-child(even) {
-                    background-color: #f9f9f9;
-                }
-
-                td:first-child {
-                    text-align: left;
-                }
-            }
+            
 
             .btn-close-modal {
                 color: #61031C;
@@ -248,6 +252,41 @@
 
                 h1 {
                     text-align: start;
+                }
+
+                .measurements-table{
+                    display: none;
+                }
+
+                .btn-open-modal{
+                    display: block;
+                }
+
+                .measurements-table-mobile {
+                    width: 30%;
+                    border-collapse: collapse;
+                    margin: 0.5rem 0;
+                    font-size: 0.8rem;
+    
+                    th,
+                    td {
+                        border: 1px solid #ddd;
+                        padding: 0.25rem;
+                        text-align: center;
+                    }
+    
+                    th {
+                        background-color: #f4f4f4;
+                        font-weight: bold;
+                    }
+    
+                    tr:nth-child(even) {
+                        background-color: #f9f9f9;
+                    }
+    
+                    td:first-child {
+                        text-align: left;
+                    }
                 }
             }
         }

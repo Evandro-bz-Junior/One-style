@@ -340,6 +340,11 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             getImagePath('Vestido Vitória', 'Vestido Vitória5.jpeg'), 
         ],
         description: `Vestido mídi em crepe, blusa forrada na o mesmo tecido, saia corte godê. Manga estilo baloné, possui zíper nas costas.`,
+        measurements: {
+            busto: { P: "88cm", M: "92cm", G: "102cm" },
+            cintura: { P: "70cm", M: "76cm", G: "146cm" },
+            comprimento: { P: "102cm", M: "82cm", G: "148cm" },
+        },
         isRelease: true
     },
     {
