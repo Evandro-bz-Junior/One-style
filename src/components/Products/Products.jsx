@@ -2,15 +2,17 @@
 import productsData from '../../data/productsData';
 import ProductPagination from '../ProductPagination/ProductPagination';
 import { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 import './Products.scss'
 
 function Products() {
 
     const navigate = useNavigate();
+    const [searchParams, setSearchParams] = useSearchParams();
 
-    const [currentPage, setCurrentPage] = useState(1);
+    const currentPage = parseInt(searchParams.get('page') || '1', 10);
+    
     const [selectedType, setSelectedType] = useState('');
     const [isRelease, setIsRelease] = useState(false);
     const [productsPerPage, setProductsPerPage] = useState(8);
@@ -36,7 +38,7 @@ function Products() {
 
 
     const handlePageChange = (event, value) => {
-        setCurrentPage(value);
+        setSearchParams({ page: value });
         const productsSection = document.getElementById('products');
         if (productsSection) {
             productsSection.scrollIntoView({ behavior: 'smooth' });
@@ -45,20 +47,20 @@ function Products() {
 
 
     const handleTypeChange = (type) => {
-        setCurrentPage(1);
+        setSearchParams({ page: 1 }); 
         setSelectedType(type);
         setIsRelease(false);
     };
 
     const handleReleaseChange = () => {
-        setCurrentPage(1);
+        setSearchParams({ page: 1 }); 
         setIsRelease(true);
         setSelectedType('');
     };
 
     const handleProductsPerPageChange = (event) => {
         setProductsPerPage(Number(event.target.value));
-        setCurrentPage(1);
+        setSearchParams({ page: 1 }); 
     };
 
     const productsRef = useRef(null);
