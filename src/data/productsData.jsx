@@ -324,6 +324,13 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             getImagePath('Conjunto Sabrina', 'Conjunto Sabrina3.jpeg'),  
         ],
         description: `Conjunto em crepe leve,cropped e saia forrados com helanquinha. Possui fechamento em zíper.`,
+        measurements: {
+            busto: { P: "-", M: "92cm", G: "-"  },
+            cintura: { P: "-", M: "76cm", G: "82cm"  },
+            "comprimento cropped": { P: "-", M: "38cm", G: "-"  },
+            "comprimento saia": { P: "-", M: "42cm", G: "43cm" },
+            quadril: { P: "-", M: "106cm", G: "110cm"  },          
+        },
         isRelease: false
     },
     {
@@ -341,9 +348,9 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Vestido mídi em crepe, blusa forrada na o mesmo tecido, saia corte godê. Manga estilo baloné, possui zíper nas costas.`,
         measurements: {
-            busto: { P: "88cm", M: "92cm", G: "102cm" },
-            cintura: { P: "70cm", M: "76cm", G: "146cm" },
-            comprimento: { P: "102cm", M: "82cm", G: "148cm" },
+            busto: { P: "88cm", M: "92cm", G: "-"  },
+            cintura: { P: "70cm", M: "76cm", G: "-"  },
+            comprimento: { P: "113cm", M: "114cm", G: "-"  },
         },
         isRelease: true
     },

@@ -53,7 +53,7 @@
             }
 
             .measurements-table {
-                width: 30%;
+                width: fit-content;
                 border-collapse: collapse;
                 margin: 0.5rem 0;
                 font-size: 0.8rem;
@@ -79,17 +79,9 @@
                 }
             }
 
-            
+
             .btn-open-modal {
                 display: none;
-                width: fit-content; 
-                background-color: #61031C;
-                color: #FCF9F9;
-                padding: 0.3rem;
-                border: none;
-                border-radius: 5px; 
-                font-size: 0.8rem;
-                cursor: pointer; 
             }
         }
 
@@ -109,7 +101,7 @@
         .modal-content {
             background: #fff;
             border-radius: 10px;
-            max-width: 600px; 
+            max-width: 600px;
             padding: 1rem;
             text-align: center;
 
@@ -119,22 +111,22 @@
                 align-items: center;
             }
 
-            
+
 
             .btn-close-modal {
                 color: #61031C;
                 border: none;
-                border-radius: 5px; 
+                border-radius: 5px;
                 font-size: 1rem;
                 cursor: pointer;
                 background-color: transparent;
 
                 svg {
-                    width: 20px;  
-                    height: 20px;  
-                    margin: 0;  
-                    display: inline-block;  
-                    vertical-align: middle;  
+                    width: 20px;
+                    height: 20px;
+                    margin: 0;
+                    display: inline-block;
+                    vertical-align: middle;
                 }
             }
         }
@@ -254,36 +246,40 @@
                     text-align: start;
                 }
 
-                .measurements-table{
+                .measurements-table {
                     display: none;
                 }
 
-                .btn-open-modal{
+                .btn-open-modal {
                     display: block;
+                    width: fit-content;
+                    color: #61031C;  
+                    font-size: 0.9rem;
+                    cursor: pointer;
                 }
 
                 .measurements-table-mobile {
-                    width: 30%;
+                    width: fit-content;
                     border-collapse: collapse;
                     margin: 0.5rem 0;
                     font-size: 0.8rem;
-    
+
                     th,
                     td {
                         border: 1px solid #ddd;
                         padding: 0.25rem;
                         text-align: center;
                     }
-    
+
                     th {
                         background-color: #f4f4f4;
                         font-weight: bold;
                     }
-    
+
                     tr:nth-child(even) {
                         background-color: #f9f9f9;
                     }
-    
+
                     td:first-child {
                         text-align: left;
                     }

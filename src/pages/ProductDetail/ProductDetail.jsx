@@ -101,9 +101,9 @@ function ProductDetail() {
                                         <p>Medidas não disponíveis para este produto.</p>
                                     )}
 
-                        <button className="btn-open-modal" onClick={() => setIsModalOpen(true)}>
+                        <a href='#' className="btn-open-modal" onClick={() => setIsModalOpen(true)}>
                             Ver Tabela de Medidas
-                        </button>
+                        </a>
                         {isModalOpen && (
                             <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
                                 <div
