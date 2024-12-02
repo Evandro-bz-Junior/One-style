@@ -225,7 +225,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             comprimento: { P: "60cm", M: "-", G: "-" },
             "comprimento manga": { P: "60cm", M: "-", G: "-" },
         },
-        isRelease: true
+        isRelease: false
     },
     {
         id: crypto.randomUUID(),
@@ -491,6 +491,28 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             busto: { P: "88cm", M: "92cm", G: "102cm" },
             cintura: { P: "70cm", M: "76cm", G: "146cm" },
             comprimento: { P: "102cm", M: "82cm", G: "148cm" },
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Vestido Grace",
+        type: 'Vestido',
+        price: "R$ 194,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Vestido Grace', 'Vestido Grace1.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace2.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace3.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace4.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace5.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace6.jpeg'),
+            getImagePath('Vestido Grace', 'Vestido Grace7.jpeg'),
+        ],
+        description: `Vestido Amplo em viscose bordada com levemente bufante.`,
+        measurements: {
+            busto: { P: "88cm", M: "96cm", G: "104cm" }, 
+            comprimento: { P: "145cm", M: "147cm", G: "150cm" },
         },
         isRelease: true
     },
