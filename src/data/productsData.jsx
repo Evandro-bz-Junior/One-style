@@ -470,7 +470,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             cintura: { P: "70cm", M: "76cm", G: "-" },
             comprimento: { P: "113cm", M: "114cm", G: "-" },
         },
-        isRelease: true
+        isRelease: false
     },
     {
         id: crypto.randomUUID(),
@@ -513,6 +513,28 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         measurements: {
             busto: { P: "88cm", M: "96cm", G: "104cm" }, 
             comprimento: { P: "145cm", M: "147cm", G: "150cm" },
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Vestido Thuany",
+        type: 'Vestido',
+        price: "R$ 144,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Vestido Thuany', 'Vestido Thuany1.jpeg'),
+            getImagePath('Vestido Thuany', 'Vestido Thuany2.jpeg'),
+            getImagePath('Vestido Thuany', 'Vestido Thuany3.jpeg'),
+            getImagePath('Vestido Thuany', 'Vestido Thuany4.jpeg'),
+            getImagePath('Vestido Thuany', 'Vestido Thuany5.jpeg'), 
+        ],
+        description: `Vestido em alfaiataria corte reto, com mangas bufantes, possui forro, faixa para amarração e fechamento em zíper.`,
+        measurements: {
+            busto: { P: "88cm", M: "94cm", G: "104cm" }, 
+            cintura: { P: "76cm", M: "82cm", G: "86cm" },
+            quadril: { P: "100cm", M: "110cm", G: "120cm" },
+            comprimento: { P: "81cm", M: "83cm", G: "85cm" },
         },
         isRelease: true
     },
