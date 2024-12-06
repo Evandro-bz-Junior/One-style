@@ -7,9 +7,9 @@ import './Releases.scss'
 function Releases() {
     const navigate = useNavigate();
 
-    const release1 = productsData.find(product => product.title === "Vestido Thuany");
-    const release2 = productsData.find(product => product.title === "Vestido Grace");
-    const release3 = productsData.find(product => product.title === "Vestido Vitória");
+    const release1 = productsData.find(product => product.title === "Conjunto Carolina");
+    const release2 = productsData.find(product => product.title === "Vestido Thuany");
+    const release3 = productsData.find(product => product.title === "Vestido Grace");
 
     return (
         <div className='releases'>

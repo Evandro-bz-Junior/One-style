@@ -470,7 +470,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             cintura: { P: "70cm", M: "76cm", G: "-" },
             comprimento: { P: "113cm", M: "114cm", G: "-" },
         },
-        isRelease: false
+        isRelease: true
     },
     {
         id: crypto.randomUUID(),
@@ -535,6 +535,27 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             cintura: { P: "76cm", M: "82cm", G: "86cm" },
             quadril: { P: "100cm", M: "110cm", G: "120cm" },
             comprimento: { P: "81cm", M: "83cm", G: "85cm" },
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Conjunto Carolina",
+        type: 'Conjunto',
+        price: "R$ 149,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Conjunto Carolina', 'Conjunto Carolina1.jpeg'),
+            getImagePath('Conjunto Carolina', 'Conjunto Carolina2.jpeg'),
+            getImagePath('Conjunto Carolina', 'Conjunto Carolina3.jpeg'),
+            getImagePath('Conjunto Carolina', 'Conjunto Carolina4.jpeg'),
+        ],
+        description: `Conjunto em alfaiataria leve , forrado . Calça possui  zíper lateral.`,
+        measurements: {
+            busto: { P: "88cm", M: "92cm", G: "102cm" },            
+            "comprimento cropped": { P: "42cm", M: "43cm", G: "45cm" },
+            cintura: { P: "68cm", M: "76cm", G: "82cm" }, 
+            "comprimento calça": { P: "109cm", M: "111cm", G: "114cm" },            
         },
         isRelease: true
     },
