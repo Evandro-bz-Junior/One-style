@@ -207,7 +207,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         },
         isRelease: false
     },
-    {
+   /*  {
         id: crypto.randomUUID(),
         title: "Camisa Itaguaci",
         type: 'Camisa',
@@ -226,7 +226,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             "comprimento manga": { P: "60cm", M: "-", G: "-" },
         },
         isRelease: false
-    },
+    }, */
     {
         id: crypto.randomUUID(),
         title: "Novo Nathalia",
@@ -339,7 +339,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         },
         isRelease: false
     },
-    {
+    /* {
         id: crypto.randomUUID(),
         title: "Semi cropped Helem",
         type: 'Blusa',
@@ -356,7 +356,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             comprimento: { P: "47cm", M: "48cm", G: "50cm" },
         },
         isRelease: false
-    },
+    }, */
     {
         id: crypto.randomUUID(),
         title: "Vestido Melissa",
