@@ -542,7 +542,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         id: crypto.randomUUID(),
         title: "Conjunto Carolina",
         type: 'Conjunto',
-        price: "R$ 149,90",
+        price: "R$ 169,90",
         payment: "4x sem juros",
         image: [
             getImagePath('Conjunto Carolina', 'Conjunto Carolina1.jpeg'),
