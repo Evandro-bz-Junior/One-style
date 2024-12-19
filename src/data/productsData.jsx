@@ -279,8 +279,8 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Blusa  em crepe encorpada estilo básica. `,
         measurements: {
-            busto: { P: "86cm", M: "94cm", G: "104cm" },
-            comprimento: { P: "60cm", M: "61cm", G: "62cm" },
+            busto: { P: "-", M: "-", G: "104cm" },
+            comprimento: { P: "-", M: "-", G: "62cm" },
         },
         isRelease: false
     },
@@ -488,9 +488,9 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Vestido longo em crepe, blusa forrada na o mesmo tecido, saia levemente franzida, forrada, possui zíper nas costas.`,
         measurements: {
-            busto: { P: "88cm", M: "92cm", G: "102cm" },
-            cintura: { P: "70cm", M: "76cm", G: "146cm" },
-            comprimento: { P: "102cm", M: "82cm", G: "148cm" },
+            busto: { P: "-", M: "-", G: "102cm" },
+            cintura: { P: "-", M: "-", G: "146cm" },
+            comprimento: { P: "-", M: "-", G: "148cm" },
         },
         isRelease: true
     },
@@ -531,10 +531,10 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Vestido em alfaiataria corte reto, com mangas bufantes, possui forro, faixa para amarração e fechamento em zíper.`,
         measurements: {
-            busto: { P: "88cm", M: "94cm", G: "104cm" }, 
-            cintura: { P: "76cm", M: "82cm", G: "86cm" },
-            quadril: { P: "100cm", M: "110cm", G: "120cm" },
-            comprimento: { P: "81cm", M: "83cm", G: "85cm" },
+            busto: { P: "-", M: "94cm", G: "-" }, 
+            cintura: { P: "-", M: "82cm", G: "-" },
+            quadril: { P: "-", M: "110cm", G: "-" },
+            comprimento: { P: "-", M: "83cm", G: "-" },
         },
         isRelease: true
     },
@@ -552,10 +552,74 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Conjunto em alfaiataria leve , forrado . Calça possui  zíper lateral.`,
         measurements: {
-            busto: { P: "88cm", M: "92cm", G: "102cm" },            
-            "comprimento cropped": { P: "42cm", M: "43cm", G: "45cm" },
-            cintura: { P: "68cm", M: "76cm", G: "82cm" }, 
-            "comprimento calça": { P: "109cm", M: "111cm", G: "114cm" },            
+            busto: { P: "88cm", M: "-", G: "102cm" },            
+            "comprimento cropped": { P: "42cm", M: "-", G: "45cm" },
+            cintura: { P: "68cm", M: "-", G: "82cm" }, 
+            "comprimento calça": { P: "109cm", M: "-", G: "114cm" },            
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Conjunto Noémia",
+        type: 'Conjunto',
+        price: "R$ 149,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Conjunto Noémia', 'Conjunto Noémia1.jpeg'),
+            getImagePath('Conjunto Noémia', 'Conjunto Noémia2.jpeg'),
+            getImagePath('Conjunto Noémia', 'Conjunto Noémia3.jpeg'), 
+        ],
+        description: `Short forrado com helanquinha, possui zíper lateral, cropped forrado no mesmo tecido.`,
+        measurements: {
+            busto: { P: "88cm", M: "-", G: "102cm" },            
+            "comprimento cropped": { P: "43cm", M: "-", G: "45cm" },
+            cintura: { P: "68cm", M: "-", G: "82cm" }, 
+            quadril: { P: "93cm", M: "-", G: "104cm" }, 
+            "comprimento short": { P: "40cm", M: "-", G: "42cm" },            
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Vestido Louise",
+        type: 'Vestido',
+        price: "R$ 119,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Vestido Louise', 'Vestido Louise1.jpeg'),
+            getImagePath('Vestido Louise', 'Vestido Louise2.jpeg'),
+            getImagePath('Vestido Louise', 'Vestido Louise3.jpeg'), 
+        ],
+        description: `Vestido curto corte reto, alças finas, forrado, laço fixo.`,
+        measurements: {
+            busto: { P: "88cm", M: "-", G: "-" },  
+            quadril: { P: "96cm", M: "-", G: "-" },
+            comprimento: { P: "81cm", M: "-", G: "-" },
+        },
+        isRelease: true
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Conjunto Beatriz",
+        type: 'Conjunto',
+        price: "R$ 169,90",
+        payment: "4x sem juros",
+        image: [
+            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz1.jpeg'),
+            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz2.jpeg'),
+            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz3.jpeg'), 
+            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz4.jpeg'), 
+            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz5.jpeg'), 
+        ],
+        description: `Conjunto em viscolinho 100% viscose bordado, short e semi cropped forrados com helanquinha, o short o possui elástico no centro das costas e possui zíper lateral.`,
+        measurements: {
+            busto: { P: "88cm", M: "-", G: "-" },            
+            "comprimento cropped": { P: "49cm", M: "-", G: "-" },
+            "comprimento manga": { P: "40cm", M: "-", G: "-" },
+            cintura: { P: "70cm", M: "-", G: "-" }, 
+            quadril: { P: "98cm", M: "-", G: "-" }, 
+            "comprimento short": { P: "40cm", M: "-", G: "-" },            
         },
         isRelease: true
     },
