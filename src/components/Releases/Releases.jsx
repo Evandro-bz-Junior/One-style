@@ -7,7 +7,7 @@ import './Releases.scss'
 function Releases() {
     const navigate = useNavigate();
 
-    const release1 = productsData.find(product => product.title === "Conjunto Beatriz");
+    const release1 = productsData.find(product => product.title === "Short Beatriz");
     const release2 = productsData.find(product => product.title === "Vestido Louise");
     const release3 = productsData.find(product => product.title === "Conjunto Noémia");
 

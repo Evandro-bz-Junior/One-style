@@ -96,10 +96,10 @@ const productsData = [
         ],
         description: `Conjunto em crepe, calça pantalona forrado, com fechamento de zíper na lateral,  bolsos faca. Semi cropped com frente forrada no mesmo tecido manga curta.`,
         measurements: {
-            busto: { P: "88cm", M: "96cm", G: "104cm" },
-            "comprimento blusa": { P: "50cm", M: "51cm", G: "53cm" },
-            cintura: { P: "68cm", M: "76cm", G: "82cm" },
-            "comprimento calça": { P: "109cm", M: "111cm", G: "114cm" },
+            busto: { P: "88cm", M: "96cm", G: "-" },
+            "comprimento blusa": { P: "50cm", M: "51cm", G: "-" },
+            cintura: { P: "68cm", M: "76cm", G: "-" },
+            "comprimento calça": { P: "109cm", M: "111cm", G: "-" },
         },
         isRelease: false
     }, {
@@ -125,7 +125,7 @@ const productsData = [
             "comprimento saia": { P: "43cm", M: "44cm", G: "45cm" },
         },
         isRelease: false
-    }, {
+    },/*  {
         id: crypto.randomUUID(),
         title: "Vestido Paola",
         type: 'Vestido',
@@ -145,7 +145,7 @@ const productsData = [
             comprimento: { P: "81cm", M: "85cm", G: "88cm" },
         },
         isRelease: false
-    },
+    }, */
     /* {
         id: crypto.randomUUID(),
         title: "Conjunto Sandra",
@@ -357,7 +357,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         },
         isRelease: false
     }, */
-    {
+    /* {
         id: crypto.randomUUID(),
         title: "Vestido Melissa",
         type: 'Vestido',
@@ -376,7 +376,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             comprimento: { P: "-", M: "-", G: "102cm" },
         },
         isRelease: false
-    },
+    }, */
     {
         id: crypto.randomUUID(),
         title: "Colete paula",
@@ -466,9 +466,9 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         ],
         description: `Vestido mídi em crepe, blusa forrada na o mesmo tecido, saia corte godê. Manga estilo baloné, possui zíper nas costas.`,
         measurements: {
-            busto: { P: "88cm", M: "92cm", G: "-" },
-            cintura: { P: "70cm", M: "76cm", G: "-" },
-            comprimento: { P: "113cm", M: "114cm", G: "-" },
+            busto: { P: "88cm", M: "-", G: "-" },
+            cintura: { P: "70cm", M: "-", G: "-" },
+            comprimento: { P: "113cm", M: "-", G: "-" },
         },
         isRelease: true
     },
@@ -494,7 +494,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
         },
         isRelease: true
     },
-    {
+    /* {
         id: crypto.randomUUID(),
         title: "Vestido Grace",
         type: 'Vestido',
@@ -515,7 +515,7 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
             comprimento: { P: "145cm", M: "147cm", G: "150cm" },
         },
         isRelease: true
-    },
+    }, */
     {
         id: crypto.randomUUID(),
         title: "Vestido Thuany",
@@ -601,23 +601,20 @@ Calça em linho com viscose, com fechamento lateral por zíper, possui passantes
     },
     {
         id: crypto.randomUUID(),
-        title: "Conjunto Beatriz",
-        type: 'Conjunto',
-        price: "R$ 169,90",
+        title: "Short Beatriz",
+        type: 'Short',
+        price: "R$ 119,90",
         payment: "4x sem juros",
         image: [
-            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz1.jpeg'),
-            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz2.jpeg'),
-            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz3.jpeg'), 
-            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz4.jpeg'), 
-            getImagePath('Conjunto Beatriz', 'Conjunto Beatriz5.jpeg'), 
+            getImagePath('Short Beatriz', 'Short Beatriz1.jpeg'),
+            getImagePath('Short Beatriz', 'Short Beatriz2.jpeg'),
+            getImagePath('Short Beatriz', 'Short Beatriz3.jpeg'), 
+            getImagePath('Short Beatriz', 'Short Beatriz4.jpeg'), 
+            getImagePath('Short Beatriz', 'Short Beatriz5.jpeg'), 
         ],
-        description: `Conjunto em viscolinho 100% viscose bordado, short e semi cropped forrados com helanquinha, o short o possui elástico no centro das costas e possui zíper lateral.`,
+        description: `Short forrado com helanquinha e possui zíper lateral.`,
         measurements: {
-            busto: { P: "88cm", M: "-", G: "-" },            
-            "comprimento cropped": { P: "49cm", M: "-", G: "-" },
-            "comprimento manga": { P: "40cm", M: "-", G: "-" },
-            cintura: { P: "70cm", M: "-", G: "-" }, 
+                        cintura: { P: "70cm", M: "-", G: "-" }, 
             quadril: { P: "98cm", M: "-", G: "-" }, 
             "comprimento short": { P: "40cm", M: "-", G: "-" },            
         },
