@@ -41,15 +41,4 @@ OneStyle é um projeto com uma interface moderna e responsiva. O projeto foi des
 - **Footer**:
   - Links para redes sociais e para o site da empresa.
 
---- 
-
-## 🛠️ Como Rodar o Projeto
-
-Para rodar o projeto localmente, siga os passos abaixo:
-
-1️⃣ **Clone o repositório**  
-   Primeiro, faça o clone do repositório para sua máquina local utilizando o comando abaixo:
-
-   ```bash
-   git clone https://github.com/Evandro-bz-Junior/One-style.git
-   cd One-style
+---  
