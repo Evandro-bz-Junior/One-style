@@ -1,44 +1,47 @@
-# 🌟 OneStyle - E-commerce de Moda
+# 🌟 OneStyle —  Moda
 
-OneStyle é um projeto com uma interface moderna e responsiva. O projeto foi desenvolvido utilizando **React**, **Vite**, **Material UI**, **Swiper**, e outras bibliotecas.
+O **OneStyle** é um projeto de e-commerce moderno e responsivo voltado para o setor de moda.  
+Desenvolvido com **React**, **Vite**, **Material UI**, **Swiper** e outras bibliotecas, o projeto oferece uma experiência fluida e interativa, com foco em desempenho e usabilidade.
+
+🔗 [Acesse ](https://one-style.vercel.app/)
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces interativas e dinâmicas.
-- **Vite**: Ferramenta de build e desenvolvimento rápida e eficiente.
-- **Material UI**: Biblioteca de componentes React para criar interfaces modernas e acessíveis.
-- **Swiper**: Biblioteca para criar sliders e carrosséis de imagens.
-- **React Router**: Para navegação entre páginas do projeto.
-- **React Icons**: Para adicionar ícones interativos e de fácil personalização.
+- ⚛️ **React** — Biblioteca JavaScript para construção de interfaces interativas e dinâmicas.  
+- ⚡ **Vite** — Ferramenta de build e desenvolvimento rápida e moderna.  
+- 🎨 **Material UI** — Biblioteca de componentes React para interfaces acessíveis e responsivas.  
+- 🌀 **Swiper** — Carrossel de imagens com transições fluidas.  
+- 🧭 **React Router** — Gerenciamento de rotas e navegação entre páginas.  
+- 🔣 **React Icons** — Ícones personalizáveis para botões e seções.
 
 ---
 
-## 📄 Funcionalidades
+## 🛍️ Funcionalidades Principais
 
-- **Página Inicial (Home)**: 
-  - **Banners dinâmicos**: Utiliza o **Swiper** para exibir banners com transições automáticas.
-  - **Botões de CTA** com ícones da **React Icons**.
+### 🏠 Página Inicial
+- **Banners dinâmicos** com o **Swiper**, exibindo promoções e lançamentos.  
+- **Botões de ação (CTA)** com ícones estilizados via **React Icons**.  
+- **Seção de Lançamentos** destacando os produtos mais recentes com links para detalhes.
 
-  - **Seção de Lançamentos**:
-  - Exibe os lançamentos mais recentes, com links para a página de detalhes do produto. 
+### 🛒 Seção de Produtos
+- Catálogo completo com listagem de produtos.  
+- **Paginação** integrada via **Material UI**.  
+- Navegação fluida para a página de detalhes de cada item.
 
-- **Seção de Produtos**:
-  - Exibe o catálogo de produtos disponíveis para compra, com links para a página de detalhes do produto.
-  - **Paginação** criada com **Material UI** para navegar facilmente pelos itens.
+### 👕 Página de Detalhes do Produto
+- Exibição detalhada com **tamanhos, descrições e imagens**.  
+- Carrossel de imagens com **Swiper** para melhor visualização.
 
-- **Página de Detalhes do Produto**:
-  - O usuário é redirecionado para uma página de detalhes ao clicar em um produto.
-  - Exibe **detalhes**, **tamanhos** e **fotos** do produto com um carrossel de imagens utilizando o **Swiper**.
+### ℹ️ Seção “Sobre”
+- Informações institucionais e propósito da marca.
 
-- **Seção "Sobre"**:
-  - Exibe informações sobre a empresa.
+### ❓ Seção “FAQ”
+- Perguntas frequentes implementadas com **Accordion (Material UI)** para melhor experiência do usuário.
 
-- **Seção "FAQ"**:
-  - Perguntas frequentes com **Accordion** utilizando o **Material UI**.
+### 🔗 Footer
+- Links para redes sociais e para o site oficial da empresa.
 
-- **Footer**:
-  - Links para redes sociais e para o site da empresa.
-
----  
+---
+ 
